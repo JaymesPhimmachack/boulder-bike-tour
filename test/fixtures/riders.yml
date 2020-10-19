@@ -1,17 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  first_name: MyString
-  last_name: MyString
-  city_of_origin: MyString
-  state_of_origin: MyString
-  latitude: 1.5
-  longitude: 1.5
+  first_name: Dustin
+  last_name: Green
+  city_of_origin: Hickory Hills
+  state_of_origin: IL
+  latitude: 40.00
+  longitude: -105.35
 
 two:
-  first_name: MyString
-  last_name: MyString
-  city_of_origin: MyString
-  state_of_origin: MyString
-  latitude: 1.5
-  longitude: 1.5
+  first_name: Jason
+  last_name: Finn
+  city_of_origin: Huntington Beach
+  state_of_origin: CA
+  latitude: 39.95
+  longitude: -105.24
