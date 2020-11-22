@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import mainImage from "../../assets/images/blur-1281675_1920.jpg";
-import { Button } from "react-bootstrap";
 
 const StyledHome = styled.div`
   background-image: url(${mainImage});
