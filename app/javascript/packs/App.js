@@ -58,7 +58,7 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/riders")
+      .get("https://jp-boulder-bike-tour.herokuapp.com/api/riders")
       .then(({ data }) => setRiders(data))
       .catch((error) => console.log(error));
   }, []);

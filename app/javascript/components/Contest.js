@@ -33,7 +33,7 @@ const Contest = () => {
     event.preventDefault();
 
     try {
-      const { data } = await axios.post("http://localhost:3000/submissions", {
+      const { data } = await axios.post("https://jp-boulder-bike-tour.herokuapp.com/submissions", {
         submission: {
           first_name: values.first_name,
           last_name: values.last_name,
